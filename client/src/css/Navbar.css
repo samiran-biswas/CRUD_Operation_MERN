@@ -1,0 +1,924 @@
+/* ---------------------------------------NAvbar Section-------------------------------------- */
+
+.s_Navmiddle {
+  margin: auto;
+  gap: 30px;
+}
+
+.s_Home,
+.s_Solutions,
+.s_Products,
+.s_Resources,
+.s_Aboutus,
+.s_Contactus {
+  color: #414141;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.s_solutionDrop {
+  display: flex;
+}
+
+.s_Solutiondropdown {
+  display: flex;
+}
+
+.s_Login {
+  color: #1A032C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+.s_Login:hover {
+border-radius: 10px;
+border: 2px solid #101E9E;
+/* width: 110px;
+height: 44px; */
+padding: 5px 10px;
+flex-shrink: 0;
+}
+.s_Signup {
+  color: #0C2789;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid #101E9E;
+}
+
+.s_Signup:hover {
+  border-radius: 10px;
+  border: 1px solid #101E9E;
+}
+
+/* ---------------------------------------Navbar Section Ends here-------------------------------------- */
+.nav {
+  position: sticky !important;
+  top: 0;
+  z-index: 100;
+}
+.NEWNAVBAR{
+  
+  background: #fff;
+  color:#000;
+  height: 78px;
+  gap:  100px;
+  padding: 0px;
+  width: 100%;
+  box-shadow: 0 4px 4px 0 #0000001a;
+}
+.NABVARCONUNT{
+  margin: 0% 5% !important;
+}
+.full-bleednav{
+  width: 100%;
+}
+.NAV{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NEWNAVBARlogo{
+margin-right: 0%;
+
+
+}
+.logoofhome{
+  height: 58px;
+}
+.logoOfDashboard{
+  height: 48px;
+  width: 200px;
+  padding: 0px 0px 0px 30px;
+}
+
+.listofnavbar{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.NEWNAVBARa{
+  color:#fff;
+  margin: 10px 10px;
+  font-size: 20px;
+  font-weight: 500;
+  width:100%;
+  text-align: center;
+  padding: 10px 10px;
+}
+.NEWNAVBARa:hover{
+  color:#0e0e5a ;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.dashboardnavbutton{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 20%;
+}
+.logopart{
+  width: 20%;
+
+}
+.contentpart{
+  width: 80%;
+}
+.logoutbutton{
+  background: transparent;
+  color:#fff;
+  width: 120px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  text-align: center;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+}
+.logoutbutton:hover{
+  background:#fff;
+  color:#2828C2 ;
+  border: 1px solid #2828C2;
+}
+.full-bleednav{
+  width: 100%;
+ }
+ @media screen and (min-device-width:320px) and (max-device-width:600px) {
+  .logoofhome {
+    height: 38px;
+    width: 100%;
+}
+.react-icontoggle {
+  width: 20px;
+  height: 30px;
+}
+.dynamic-wrapper2 {
+  width: 100px;
+  /* height: 30px; */
+}
+  .NEWNAVBAR{
+    display: flex;
+    flex-direction: column;
+    
+      height: 78px;
+    
+      padding: 0px;
+      width: 100%;
+  }
+  .NEWNAVBARlogo {
+      margin-right: 37%;
+  }
+  .NEWNAVBARa{
+      color:#000;
+      margin: 10px 0px;
+      font-size: 18px;
+      font-weight: 500;
+    
+      float: right;
+      text-align: start;
+      padding: 10px;
+  }
+ 
+  .dashboardnavbutton {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 150px;
+  }
+  .logoutbutton{
+      color: #fff;
+      background-color: #0e0e5a;
+      border: none;
+      float: left;
+  }
+  .navbar-collapse {
+      
+      width: 100%;
+      z-index: 1000;
+      display: none;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    /* #navbarTogglerDemo02{
+      background: rgb(134, 252, 252);
+      position: absolute;
+      width: 35%;
+      top: 20%;
+      left: 65%;
+      margin-top: 60px;
+      padding: 20px 50px;
+      margin-right: 2px;
+      border-radius: 30px 5px 30px 30px;
+    } */
+    .navbar-collapse.show {
+      display: block;
+      opacity: 1;
+    }
+    
+    .togglebutton{
+      width: 55px;
+      margin-right: 10px;
+  }
+ }
+
+ /* .NEWNAVBAR{
+  display: flex;
+  flex-direction: column;
+    color:#fff;
+    height: 125px;
+    gap:  20px;
+    padding: 0px;
+    width: 100%;
+} */
+@media screen and (min-device-width: 320px) and (max-device-width: 375px) { 
+  /* STYLES HERE */
+  .NEWNAVBARlogo {
+      margin-right: 26%;
+  }
+  #navbarTogglerDemo02{
+      background: rgb(99 239 93);
+      position: absolute;
+      width: 70%;
+      /* margin-left: 50%; */
+      top: 20%;
+      left: 30%;
+      margin-top: 60px;
+      padding: 20px 50px;
+      margin-right: 2px;
+      border-radius: 30px 5px 30px 30px;
+    }
+  .logopart {
+      display: flex;
+      width: 20%;
+      height: 100%;
+      align-items: center;
+      float: left;
+      justify-content: flex-start;
+      }
+      .contentpart {
+          display: flex;
+          width: 50%;
+          height: 100%;
+          align-items: center;
+          float: left;
+          justify-content: flex-end;
+          }
+          .divofnav{
+              width: 100%;
+          }
+          .s_Home, .s_Solutions, .s_Products, .s_Resources, .s_Aboutus, .s_Contactus {
+            color: #fff;
+        }
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 414px) { 
+  .s_Home, .s_Solutions, .s_Products, .s_Resources, .s_Aboutus, .s_Contactus {
+    color: #fff;
+}
+  /* STYLES HERE */
+  .NEWNAVBAR{
+      display: flex;
+      flex-direction: column;
+      /* justify-content:  space-evenly; */
+        height: 78px;
+        /* gap:  140px; */
+        padding: 0px;
+        width: 100%;
+    }
+    .NEWNAVBARlogo {
+        margin-right: 37%;
+    }
+    .NEWNAVBARa{
+        color:#000;
+        margin: 10px 0px;
+        font-size: 18px;
+        font-weight: 500;
+        /* width:30px; */
+        float: right;
+        text-align: start;
+        padding: 10px;
+    }
+    #navbarTogglerDemo02{
+      background: rgb(99 239 93);
+      position: absolute;
+      width: 50%;
+      /* margin-left: 50%; */
+      top: 18%;
+      left: 50%;
+      margin-top: 60px;
+      padding: 20px 40px;
+      margin-right: 2px;
+      border-radius: 30px 5px 30px 30px;
+    }
+    .dashboardnavbutton {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 150px;
+    }
+    .togglebutton {
+      outline: none; /* Remove the outline on click */
+    }
+    .togglebutton :focus{
+     outline: none;
+    }
+    .logoutbutton{
+        color: #fff;
+        background-color: #0e0e5a;
+        border: none;
+    }
+    .navbar-collapse {
+        /* background-color: transparent; */
+        /* position: absolute; */
+        width: 100%;
+        z-index: 1000;
+        display: none;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      .navbar-collapse.show {
+        display: block;
+        opacity: 1;
+      }
+      .togglebutton{
+          width: 55px;
+          margin-right: 10px;
+      }
+      .logopart {
+          display: flex;
+          width: 20%;
+          height: 100%;
+          align-items: center;
+          float: left;
+          justify-content: flex-start;
+          }
+          .contentpart {
+              display: flex;
+              width: 50%;
+              height: 100%;
+              align-items: center;
+              float: left;
+              justify-content: flex-end;
+              }
+              .divofnav{
+                  width: 100%;
+              }
+}
+@media screen and (min-device-width: 414px) and (max-device-width: 740px) { 
+  /* STYLES HERE */
+    #navbarTogglerDemo02{
+      background: rgb(99 239 93);
+      position: absolute;
+      width: 55%;
+      top: 20%;
+      left: 45%;
+      margin-top: 60px;
+      padding: 20px 50px;
+      margin-right: 2px;
+      border-radius: 30px 5px 30px 30px;
+    }
+   
+}
+@media screen and (width: 540px) { 
+  /* STYLES HERE */
+  #navbarTogglerDemo02{
+      background: rgb(99 239 93);
+      position: absolute;
+      width: 40%;
+      top: 20%;
+      left: 60%;
+      margin-top: 60px;
+      padding: 20px 50px;
+      margin-right: 2px;
+      border-radius: 30px 5px 30px 30px;
+    }
+   
+  
+}
+@media screen and (min-device-width: 541px) and (max-device-width: 600px) { 
+  
+  /* STYLES HERE */
+  #navbarTogglerDemo02{
+      background: rgb(99 239 93);
+      position: absolute;
+      width: 35%;
+      top: 20%;
+      left: 65%;
+      margin-top: 60px;
+      padding: 20px 50px;
+      margin-right: 2px;
+      border-radius: 30px 5px 30px 30px;
+    }
+   
+}
+@media screen and (min-device-width: 601px) and (max-device-width: 767px) { 
+  /* STYLES HERE */
+  #navbarTogglerDemo02{
+      background: rgb(99 239 93) ;
+      position: absolute ;
+      width: 30% ;
+      top: 50% ;
+      left: 70% ;
+      margin-top: 39px ;
+      padding: 20px 50px ;
+      margin-right: 2px ;
+      border-radius: 30px 5px 30px 30px ;
+    }
+    .NEWNAVBARa{
+      color:#fff;
+      margin: 10px 0px;
+      font-size: 18px;
+      font-weight: 500;
+      /* width:30px; */
+      float: right;
+      text-align: start;
+      padding: 10px;
+  }
+  .s_Home, .s_Solutions, .s_Products, .s_Resources, .s_Aboutus, .s_Contactus {
+    color: #fff;
+}
+  .logoutbutton{
+      color: #fff;
+      background-color: #2828C2;
+      border: none;
+      float: left;
+  }
+  .navbar-collapse {
+      /* background-color: transparent; */
+      /* position: absolute; */
+      width: 100%;
+      z-index: 1000;
+      display: none;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    .navbar-collapse.show {
+      display: block;
+      opacity: 1;
+    }
+  
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+  .logopart {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  float: left;
+  justify-content: flex-start;
+  }
+  .logopart {
+      display: flex;
+      width: 80%;
+      height: 100%;
+      align-items: center;
+      float: left;
+      justify-content: flex-end;
+      }
+  /* STYLES HERE */
+  .NEWNAVBAR{
+      display: flex;
+      flex-direction: column;
+      /* justify-content:  space-evenly; */
+        height: 78px;
+        /* gap:  140px; */
+        padding: 0px 0px;
+        width: 100%;
+    }
+    .NEWNAVBARlogo {
+        margin-right: 70%;
+    }
+    .NEWNAVBARa{
+        color:#fff;
+        margin: 10px 0px;
+        font-size: 18px;
+        font-weight: 500;
+        /* width:30px; */
+        float: right;
+        text-align: start;
+        padding: 10px;
+    }
+    .dashboardnavbutton {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    .logoutbutton{
+        margin-left: 10px;
+    }
+    .divofnav{
+      width: 100%;
+  }
+   #navbarTogglerDemo02{
+      background: rgb(99 239 93) ;
+      position: absolute ;
+      width: 25% ;
+      top: 50% ;
+      left: 75% ;
+      margin-top: 39px ;
+      padding: 20px 50px ;
+      margin-right: 2px ;
+      border-radius: 30px 5px 30px 30px ;
+    }
+    .NEWNAVBARa{
+      color:#000;
+      margin: 10px 0px;
+      font-size: 18px;
+      font-weight: 500;
+      /* width:30px; */
+      float: right;
+      text-align: start;
+      padding: 10px;
+  }
+  .logoutbutton{
+      color: #fff;
+      background-color: #0e0e5a;
+      border: none;
+      float: left;
+  }
+  .navbar-collapse {
+      /* background-color: transparent; */
+      /* position: absolute; */
+      width: 100%;
+      z-index: 1000;
+      display: none;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    .navbar-collapse.show {
+      display: block;
+      opacity: 1;
+    }
+}
+@media screen and (min-device-width: 992px) and (max-device-width: 1023px) { 
+  .logopart {
+      display: flex;
+      width: 20%;
+      height: 100%;
+      align-items: center;
+      float: left;
+      justify-content: flex-start;
+      }
+      .logopart {
+          display: flex;
+          width: 80%;
+          height: 100%;
+          align-items: center;
+          float: left;
+          justify-content: flex-end;
+          }
+      /* STYLES HERE */
+      .NEWNAVBAR{
+          display: flex;
+          flex-direction: column;
+          /* justify-content:  space-evenly; */
+            height: 78px;
+            /* gap:  140px; */
+            padding: 0px 0px;
+            width: 100%;
+        }
+        .NEWNAVBARlogo {
+            margin-right: 70%;
+        }
+        .NEWNAVBARa{
+            color:#fff;
+            margin: 10px 0px;
+            font-size: 18px;
+            font-weight: 500;
+            /* width:30px; */
+            float: right;
+            text-align: start;
+            padding: 10px;
+        }
+        .dashboardnavbutton {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+        }
+        .logoutbutton{
+            margin-left: 10px;
+        }
+        .divofnav{
+          width: 100%;
+      }
+       /* #navbarTogglerDemo02{
+          background: rgb(134, 252, 252) ;
+          position: absolute ;
+          width: 25% ;
+          top: 50% ;
+          left: 75% ;
+          margin-top: 60px ;
+          padding: 20px 50px ;
+          margin-right: 2px ;
+          border-radius: 30px 5px 30px 30px ;
+        } */ 
+        .NEWNAVBARa{
+          color:#fff;
+          margin: 10px 0px;
+          font-size: 18px;
+          font-weight: 500;
+          width: 100%;
+          float: right;
+          text-align: start;
+          padding: 10px;
+      }
+      .logoutbutton{
+          color: #fff;
+          background-color: #0e0e5a;
+          border: 2px solid #fff;
+          float: left;
+      }
+      .navbar-collapse {
+          /* background-color: transparent; */
+          /* position: absolute; */
+          width: 100%;
+          z-index: 1000;
+          display: block;
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+        }
+        .navbar-collapse.show {
+          display: none;
+          opacity: 1;
+        }
+        .listofnavbar{
+          display: flex;
+          flex-direction: column;
+        }
+   
+}
+@media screen and (max-device-width: 1024px) and (min-device-width: 600px) { 
+  /* STYLES HERE */
+  .logoutbutton {
+      margin-left: 0px;
+  }
+  .NEWNAVBARlogo {
+      margin-right: 3%;
+  }
+  .navbar{
+      /* justify-content: flex-start; */
+  }
+  .logopart {
+      display: flex;
+      width: 20%;
+      height: 100%;
+      align-items: center;
+      float: left;
+      justify-content: flex-start;
+  }
+  .contentpart {
+      display: flex;
+      width: 50%;
+      height: 100%;
+      align-items: center;
+      float: left;
+      justify-content: flex-end;
+  }
+  .NEWNAVBARlogo{
+      margin-right: 2%;
+  }
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1280px) { 
+  /* STYLES HERE */
+  .NEWNAVBAR{
+      display: flex;
+      flex-direction: row;
+      /* justify-content:  space-evenly; */
+        height: 78px;
+        gap:  80px;
+        padding: 0px 20px;
+        width: 100%;
+    }
+    .NEWNAVBARlogo {
+        margin-right: 2%;
+    }
+    .NEWNAVBARa{
+        color:#fff;
+        margin: 10px 10px;
+        font-size: 14px;
+        font-weight: 500;
+        /* width:30px; */
+        float: right;
+        text-align: start;
+        padding: 10px;
+    }
+    .dashboardnavbutton {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    .logoutbutton{
+        margin-left: 10px;
+    }
+    .divofnav{
+      width: 100%;
+  }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1920px) { 
+  /* STYLES HERE */
+}
+@media only screen and (max-device-width: 480px) {
+  /* STYLES HERE */
+}
+@media only screen and (max-device-width: 480px) {
+  /* STYLES HERE */
+}
+@media only screen and (max-device-width:1024px) {
+    /* STYLES HERE */
+    .NEWNAVBARlogo {
+      margin-right: 3%;
+  }
+  .logoutbutton{
+      margin-left: 0px;
+  }
+  
+}
+@media only screen and (max-device-width:1280px) {
+
+/* STYLES HERE */
+}
+
+@media screen and (min-width: 1920px) {
+  /* STYLES HERE */
+}
+/* Default styles for larger screens (1024px and above) */
+@media (min-width: 1023px) { 
+  .navbar-toggler {
+    display: none; /* Hide toggle button for larger screens */
+  }
+  .collapse.show {
+    /* display: block !important;  */
+    /* Ensure the navbar is always visible for larger screens */
+  }
+}
+
+/* Styles for smaller screens (up to 1023px) */
+@media (max-width: 600px) {
+  .NEWNAVBAR {
+      height: 75px;
+      }
+      .NEWNAVBARa {
+          font-size: 14px;
+      }
+  .collapse {
+    display: none; /* Hide the navbar content by default for smaller screens */
+  }
+
+  .navbar-toggler {
+    display: block; /* Show the toggle button for smaller screens */
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block; /* Ensure the icon is visible for smaller screens */
+  }
+
+  .collapse.show {
+    display: block; /* Display the expanded navbar when toggled for smaller screens */
+    background-color: rgb(99 239 93);
+  /* min-width: 50%; */
+  /* width: 100px; */
+  /* justify-content: flex-end; */
+  /* text-align: right; */
+  border-radius: 20px 0px 20px 20px;
+  flex-direction: column;
+  /* float: left; */
+  left: 60%;
+  padding: 15px 0px;
+  display: flex;
+  z-index: 1000;
+  top: 100%;
+  position: absolute;
+  width: 40%;
+  }
+  .collapse.show .NAVBARPOPUP{
+      width: 50%;
+      top :100%;
+  }
+  .collapse.show  .NEWNAVBARa{
+      color: #000;
+  margin: 10px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  text-align: LEFT;
+  /* padding: 10px 5px; */
+  }
+  .collapse.show  .nav-item{
+   width: 80%;
+  }
+  .collapse.show .logoutbutton{
+    color: #fff;
+    background-color: #0e0e5a;
+   border: none;
+  }
+  .collapse.show .logoutbutton:hover{
+      color: #0e0e5a;
+      background-color: #fff;
+     border: none;
+    }
+  .collapse.show .nav-item{
+      width: 100%;
+  }
+  
+}
+@media  (min-width:601px) and (max-width: 1023px) {
+  .collapse {
+    display: none; /* Hide the navbar content by default for smaller screens */
+  }
+
+  .navbar-toggler {
+    display: block; /* Show the toggle button for smaller screens */
+    margin-right: 5px;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block; /* Ensure the icon is visible for smaller screens */
+  }
+
+  .collapse.show {
+    display: block; /* Display the expanded navbar when toggled for smaller screens */
+    background-color: aqua;
+  /* min-width: 50%; */
+  /* width: 100px; */
+  /* justify-content: flex-end; */
+  /* text-align: right; */
+  border-radius: 20px 0px 20px 20px;
+  flex-direction: column;
+  /* float: left; */
+  left: 80%;
+  padding: 15px 0px;
+  display: flex;
+  z-index: 1000;
+  top: 100%;
+  position: absolute;
+  width: 20%;
+  }
+  .collapse.show .NAVBARPOPUP{
+      width: 50%;
+      top :100%;
+  }
+  .collapse.show  .NEWNAVBARa{
+      color: #000;
+  margin: 10px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  width: 90%;
+  text-align: LEFT;
+  /* padding: 10px 2px; */
+  }
+  .collapse.show  .nav-item{
+   width: 80%;
+  }
+  .collapse.show .logoutbutton{
+    color: #fff;
+    background-color: #0e0e5a;
+   border: none;
+  }
+  .collapse.show .nav-item{
+      width: 100%;
+  }
+
+  
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  .navbar-toggler {
+    display: none; 
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    z-index: 1000;
+    display: flex !important; 
+    opacity: 1;
+  }
+
+  .NAVBARPOPUP {
+    display: flex !important; 
+  }
+}
+@media screen and (width:1024px) {
+.NEWNAVBARa {
+  color: #fff;
+  margin: 10px 10px;
+  font-size: 16px;
+}
+}
+
